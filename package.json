@@ -1,0 +1,24 @@
+{
+  "name": "eksamensprojekt",
+  "version": "0.0.1",
+  "description": "A shot at making a better ludus/lms.",
+  "main": "main.js",
+  "dependencies": {
+    "electron": "^8.2.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/discobiscuit99/eksamensprojekt.git"
+  },
+  "author": "Valdemar Lorenzen, Natasha Petersen, Kjell Schoke",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/discobiscuit99/eksamensprojekt/issues"
+  },
+  "homepage": "https://github.com/discobiscuit99/eksamensprojekt#readme"
+}
