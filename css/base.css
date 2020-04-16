@@ -1,0 +1,35 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+.navbar {
+	background-color: darkgray;
+	text-align: center;
+}
+
+.navbar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.navbar li {
+	display: inline-block;
+	padding: 0.5em;
+}
+
+.navbar li:hover {
+	background-color: gray;
+}
+
+.navbar a {
+	text-decoration: none;
+	color: black;
+}
+
+.title {
+	text-align: center;
+}
+
