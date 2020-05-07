@@ -1,27 +1,20 @@
-const { Builder, Capabilities } = require("selenium-webdriver");
-const chrome = require("selenium-webdriver/chrome")
-var capabilities = Capabilities.chrome();
-//To avoid InsecureCertificateError for selenium4-aplha5
-capabilities.setAcceptInsecureCerts(true);
-//capabilities.set("browserVersion", "67");
-capabilities.set("platformName", "Windows 10");
-(async function helloSelenium() {
-    let driver = new Builder()
-        .usingServer("http://google.com")   
-        .withCapabilities(capabilities)
-        .build();
+const {Builder, By, Key, until} = require('selenium-webdriver');
+
+(async function example() {
+    let driver = await new Builder().forBrowser('firefox').build();
     try {
-        await driver.get('http://www.google.com');
-    }    
-    finally {       
-        await driver.quit();
+        // Navigate to Url
+        await driver.get('https://www.google.com');
+
+        // Enter text "cheese" and perform keyboard action "Enter"
+        await driver.findElement(By.name('q')).sendKeys('cheese', Key.ENTER);
+
+        let firstResult = await driver.wait(until.elementLocated(By.css('h3>div')), 10000);
+
+        console.log(await firstResult.getAttribute('textContent'));
     }
-})(); 
-
-var remote = require('selenium-webdriver/remote');
-driver.setFileDetector(new remote.FileDetector);
-
-driver.get("http://sso.dev.saucelabs.com/test/guinea-file-upload");
-var upload = driver.findElement(By.id("myfile"));
-upload.sendKeys("/Users/sso/the/local/path/to/darkbulb.jpg");
+    finally{
+        driver.quit();
+    }
+})();
 

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/base.css">
+    <title>Eksamensprojekt</title>
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="start.html">Start</a></li>
+            <li><a href="skema.html">Skema</a></li>
+            <li><a href="lektier.html">Lektier</a></li>
+            <li><a href="afleveringer.html">Afleveringer</a></li>
+            <li><a href="karakter.html">Karakter</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </div>
+
+    <h1 class="title">Login</h1>
+
+    <form>
+        <label for="fname">Username:</label>
+        <input type="text" id="username" name="fname"><br><br>
+        <label for="lname">Password:</label>
+        <input type="text" id="password" name="lname"><br><br>
+        <input type="submit" value="Submit" onclick="getCredentials()">
+    </form>
+
+    <script src="../js/login.js"></script>
+</body>
+</html>
+
