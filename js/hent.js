@@ -12,9 +12,10 @@ console.log("Username:", username + ", Password:", password);
 
 function scrape() {
     (async function scrapeLudus() {
+        document.getElementById("getDataText").innerHTML = "Henter data..."
         let driver = await new Builder().withCapabilities({
-            'browserName': 'firefox', 
-            acceptSslCerts: true, 
+            'browserName': 'firefox',
+            acceptSslCerts: true,
             acceptInsecureCerts: true
         }).build()
 
@@ -61,7 +62,7 @@ function scrape() {
             promise.filter(lektietabel, (element) => {
                 element.getText().then((tekst) => {
                     console.log(tekst);
-                    
+
                     prefix = "";
 
                     if (i % 7 == 0) {
@@ -89,7 +90,7 @@ function scrape() {
                     i++;
                 });
             });
-        
+
             /// Scrape under afleveringstabbet. ///
 
             let lektieMenuKnapper = await driver.findElements(By.className('v-caption'));
@@ -138,13 +139,13 @@ function scrape() {
                         if (err) throw err;
                         console.log('Text appended to afleveringer.txt');
                     });
-                
+
                     i++;
                 });
             });
 
             console.log("DONE");
-
+            document.getElementById("getDataText").innerHTML = "Data hentet"
             //driver.quit();
         } finally{
             //driver.quit();
