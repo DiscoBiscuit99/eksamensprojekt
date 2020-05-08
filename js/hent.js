@@ -12,12 +12,13 @@ console.log("Username:", username + ", Password:", password);
 
 function scrape() {
     (async function scrapeLudus() {
+        document.getElementById("writeHere").innerHTML = "Henter data..."
         let driver = await new Builder().withCapabilities({
             'browserName': 'firefox',
             acceptSslCerts: true,
             acceptInsecureCerts: true
         }).build()
-        document.getElementById("writeHere").innerHTML = "Henter data..."
+
         try {
             // Navigate to Rybners/Ludus login.
             await driver.get('https://ludus.rybners.dk/samllogin');
