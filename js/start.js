@@ -66,8 +66,32 @@ let afleveringstabel;
 
         //let _ = await afleveringstabel[0].getText();
 
+        let fs = require('fs');
+
+        // Clear the files contents.
+        fs.writeFile('afleveringer.txt', '', 'utf8', (err) => {
+            if (err) throw err;
+        });
+
+        // Initialize iterator.
+        let i = 0;
         promise.filter(afleveringstabel, (element) => {
-            element.getText().then((tekst) => console.log(tekst));
+            element.getText().then((tekst) => {
+                console.log(tekst)
+
+                // Append the new text.
+                fs.appendFile('afleveringer.txt', tekst + '\n', 'utf8', (err) => {
+                    if (err) throw err;
+                    console.log('Text appended to afleveringer.txt');
+                });
+
+                //const { ipcMain } = require('electron').remote;
+
+                //ipcMain.on('send-afleveringer', (event, arg) => {
+                //    console.log(arg);
+                //    event.reply('get-afleveringer', tekst);
+                //});
+            });
         });
     } finally{
         //driver.quit();
