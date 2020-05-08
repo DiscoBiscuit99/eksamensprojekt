@@ -40,6 +40,15 @@ let afleveringstabel;
         await driver.sleep(1000);
 
         let lektieMenuKnapper = await driver.findElements(By.className('v-caption'));
+
+        console.log("sleep");
+        await driver.sleep(1000);
+        console.log("wake");
+
+        let lektietabel = await driver.findElements(By.className('v-table-cell-wrapper'));
+    
+        /// Scrape under afleveringstabbet. ///
+
         let afleveringsKnap = await lektieMenuKnapper[1];
 
         await afleveringsKnap.click();
@@ -49,22 +58,6 @@ let afleveringstabel;
         console.log("wake");
 
         let afleveringstabel = await driver.findElements(By.className('v-table-cell-wrapper'));
-
-        //afleveringstabel = Promise.all(afleveringstabel).then((resolvedList) => {
-        //    return resolvedList;
-        //});
-
-        //console.log(afleveringstabel[0].getText());
-
-        //for (let i = 0; i < afleveringstabel.length; i++) {
-        //    console.log(afleveringstabel[i].getText());
-        //}
-
-        //let _ = await afleveringstabel[0].getText();
-
-        //console.log(_);
-
-        //let _ = await afleveringstabel[0].getText();
 
         let fs = require('fs');
 
@@ -84,19 +77,10 @@ let afleveringstabel;
                     if (err) throw err;
                     console.log('Text appended to afleveringer.txt');
                 });
-
-                //const { ipcMain } = require('electron').remote;
-
-                //ipcMain.on('send-afleveringer', (event, arg) => {
-                //    console.log(arg);
-                //    event.reply('get-afleveringer', tekst);
-                //});
             });
         });
     } finally{
         //driver.quit();
     }
 })();
-
-//document.getElementById("table-body").appendChild(afleveringstabel);
 
