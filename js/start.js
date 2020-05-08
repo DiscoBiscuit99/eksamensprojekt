@@ -13,7 +13,7 @@ const {Builder, By, Key, until, promise} = require('selenium-webdriver');
 
 let afleveringstabel;
 
-(async function example() {
+(async function scrapeLudus() {
     let driver = await new Builder().withCapabilities({
         'browserName': 'firefox', 
         acceptSslCerts: true, 
@@ -28,25 +28,47 @@ let afleveringstabel;
         await driver.findElement(By.name('Password')).sendKeys(password);
         await driver.findElement(By.id("submitButton")).sendKeys(Key.RETURN);
 
-        await driver.wait(until.elementLocated(By.className('v-window-closebox')), 5000).click();
+        await driver.wait(until.titleIs('Skemaer'));
+        await driver.wait(until.elementLocated(By.className('v-window-closebox'))).click();
 
         let menuKnapper = await driver.findElements(By.className('v-menubar-menuitem-caption'));
         let lektieKnap = menuKnapper[3];
 
         await lektieKnap.click();
 
-        //let lektieMenuKnapper = await driver.findElements(By.className('v-caption'));
-        let afleveringsKnap = await driver.findElements(By.css('width: 90px;'));
+        await driver.wait(until.titleIs('Lektier'));
+        await driver.sleep(1000);
 
-        promise.filter(lektieMenuKnapper, (knap) => {
-            console.log(knap);
-        });
-
-        //let _ = driver.wait(until.elementLocated(By.className('v-slot v-slot-h2 v-align-bottom')), 5000).click();
+        let lektieMenuKnapper = await driver.findElements(By.className('v-caption'));
+        let afleveringsKnap = await lektieMenuKnapper[1];
 
         await afleveringsKnap.click();
 
-        //afleveringstabel = driver.findElements(By.className('v-slot v-slot-small'));
+        console.log("sleep");
+        await driver.sleep(1000);
+        console.log("wake");
+
+        let afleveringstabel = await driver.findElements(By.className('v-table-cell-wrapper'));
+
+        //afleveringstabel = Promise.all(afleveringstabel).then((resolvedList) => {
+        //    return resolvedList;
+        //});
+
+        //console.log(afleveringstabel[0].getText());
+
+        //for (let i = 0; i < afleveringstabel.length; i++) {
+        //    console.log(afleveringstabel[i].getText());
+        //}
+
+        //let _ = await afleveringstabel[0].getText();
+
+        //console.log(_);
+
+        //let _ = await afleveringstabel[0].getText();
+
+        promise.filter(afleveringstabel, (element) => {
+            element.getText().then((tekst) => console.log(tekst));
+        });
     } finally{
         //driver.quit();
     }
