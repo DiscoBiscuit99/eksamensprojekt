@@ -76,6 +76,8 @@ function scrape() {
                         prefix = "Fag: ";
                     } else if (i % 2 == 0) {
                         prefix = "Ugedag: ";
+                    } else {
+                        prefix = "Dato: ";
                     }
 
                     // Append the new text.
