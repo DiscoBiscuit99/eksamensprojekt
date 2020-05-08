@@ -1,120 +1,120 @@
-12.05.20: Innovation C, VAF HXvinC1
-KASE
-
-
-12.05.2020 22:00
-0,00
-
-Innovation C, VAF, uge 20
-28.04.20: Teknikfag udvikling og produktion, el A - HTX HXtelA
-14.04.20: Tysk fortsættersprog C, VAF HFXvtyC
-LSJ
-STP
-30.03.20: Psykologi C, VAF HXvpsC2
-27.03.20: Teknikfag udvikling og produktion, el A - HTX HXtelA
-27.03.2020 23:59
-
-KROE
-
-
-
-SBS
-KROE
-0,00
-
-STP
-
-
-
-0,00
-
-
-
-
-28.04.2020 22:00
-14.04.2020 22:00
-01.04.2020 22:00
-
-
-30,00
-30.03.2020 17:00
-
-
-3,00
-1,50
-Psykologi C, VAF, uge 14
-16.04.2020 22:00
-
-
-
-19.04.2020 22:00
-
-
-Eksamensprojekt inkl. video af opstilling (link eller mp4)
-5,00
-BM DP
-14.04.2020 22:00
-Opgave Diffusion
-0,00
-Tysk fortsættersprog C, VAF, uge 16
-Matematik A
-19.04.20: Idehistorie B, HTX HX218epr
-
-
-0,00
-03.04.20: Teknikfag udvikling og produktion, el A - HTX HXtelA
-
-5,00
-31.03.20: Tysk fortsættersprog C, VAF HFXvtyC
-
-Matematik A
-Prog: Selvvalgte Sprog, Afsluttende Opgave
-Aflevering af eksamensprojekt idehistorie
-KROE
-16.04.20: Matematik A, HTX HX218epr
-02.04.2020 22:00
-LSJ
-
-14.04.20: Innovation C, VAF HXvinC1
-02.04.20: Matematik A, HTX HX218epr
-
-
-
-1,50
-0,00
-STP
-KASE
-
-Kommentarer til fem indledninger
-
-
-
-
-30.03.20: Matematik A, HTX HX218epr
-31.03.2020 22:00
-STP
-
-03.04.2020 23:59
-DSOE
-Matematik A
-30.03.2020 22:00
-0,00
-3,00
-
-1,50
-DLI
-
-01.04.20: Matematik A, HTX HX218epr
-Matematik A
-03.04.20: Programmering B, VAF HX218epr
-
-Log-bog - Fredag den 3. april
-
-
-
-30.03.2020 23:59
-Tysk fortsættersprog C, VAF, uge 18
-30.03.20: Dansk A, HTX HX218epr
-
-03.04.2020 23:59
-Log-bog som GRUPPEAFLEVERING fredag den 27.03
+Modul: 12.05.20: Innovation C, VAF HXvinC1
+Lærer: KASE
+Status: 
+Aflever: 
+Frist: 12.05.2020 22:00
+Timer: 0,00
+Rettet: 
+Titel: Innovation C, VAF, uge 20
+Status: 28.04.20: Teknikfag udvikling og produktion, el A - HTX HXtelA
+Frist: 0,00
+Modul: 1,50
+Timer: 30.03.2020 22:00
+Modul: 
+Rettet: 
+Frist: 
+Titel: Log-bog som GRUPPEAFLEVERING fredag den 27.03
+Modul: KROE
+Timer: 
+Modul: 
+Frist: 1,50
+Rettet: Psykologi C, VAF, uge 14
+Lærer: 27.03.2020 23:59
+Modul: 
+Titel: 
+Frist: 16.04.20: Matematik A, HTX HX218epr
+Lærer: Opgave Diffusion
+Status: Matematik A
+Rettet: 
+Modul: 27.03.20: Teknikfag udvikling og produktion, el A - HTX HXtelA
+Timer: 0,00
+Modul: 
+Titel: Matematik A
+Status: STP
+Lærer: 14.04.20: Tysk fortsættersprog C, VAF HFXvtyC
+Rettet: 01.04.20: Matematik A, HTX HX218epr
+Timer: 
+Modul: KROE
+Lærer: STP
+Status: 28.04.2020 22:00
+Titel: 30.03.20: Psykologi C, VAF HXvpsC2
+Modul: 
+Rettet: LSJ
+Modul: Tysk fortsættersprog C, VAF, uge 18
+Aflever: 30.03.2020 17:00
+Frist: 
+Lærer: 
+Modul: 30,00
+Titel: SBS
+Rettet: 
+Frist: 
+Status: 30.03.20: Dansk A, HTX HX218epr
+Aflever: 0,00
+Modul: DSOE
+Timer: 
+Frist: 
+Titel: Kommentarer til fem indledninger
+Status: 16.04.2020 22:00
+Lærer: 
+Modul: 
+Timer: 14.04.2020 22:00
+Modul: 
+Lærer: 01.04.2020 22:00
+Rettet: Eksamensprojekt inkl. video af opstilling (link eller mp4)
+Titel: 30.03.20: Matematik A, HTX HX218epr
+Frist: 5,00
+Timer: DLI
+Modul: 
+Aflever: 3,00
+Status: 
+Rettet: 1,50
+Modul: 19.04.20: Idehistorie B, HTX HX218epr
+Titel: STP
+Modul: 
+Lærer: 
+Frist: 
+Aflever: 03.04.2020 23:59
+Rettet: 30.03.2020 23:59
+Timer: 
+Modul: BM DP
+Titel: 
+Status: Matematik A
+Lærer: 
+Modul: Tysk fortsættersprog C, VAF, uge 16
+Rettet: 0,00
+Frist: 0,00
+Lærer: Matematik A
+Status: 0,00
+Titel: 
+Modul: 14.04.20: Innovation C, VAF HXvinC1
+Timer: 03.04.2020 23:59
+Rettet: 03.04.20: Teknikfag udvikling og produktion, el A - HTX HXtelA
+Aflever: 
+Status: 
+Lærer: 31.03.20: Tysk fortsættersprog C, VAF HFXvtyC
+Frist: 
+Titel: 19.04.2020 22:00
+Modul: KASE
+Rettet: 5,00
+Status: KROE
+Frist: Log-bog - Fredag den 3. april
+Modul: 
+Timer: LSJ
+Modul: Aflevering af eksamensprojekt idehistorie
+Titel: 
+Rettet: 
+Lærer: 
+Modul: 
+Timer: 03.04.20: Programmering B, VAF HX218epr
+Modul: Prog: Selvvalgte Sprog, Afsluttende Opgave
+Frist: 
+Status: 02.04.20: Matematik A, HTX HX218epr
+Titel: 
+Modul: 14.04.2020 22:00
+Timer: 02.04.2020 22:00
+Frist: STP
+Aflever: 
+Status: 
+Lærer: 3,00
+Rettet: 
+Titel: 31.03.2020 22:00
