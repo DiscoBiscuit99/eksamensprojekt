@@ -1,0 +1,25 @@
+.hentDataKnap {
+	background-color:#44c767;
+	border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size:20px;
+	padding:10px 40px;
+	margin: 0 auto;
+	text-decoration:none;
+  justify-content: center;
+}
+.hentDataKnap:hover {
+	background-color:#5cbf2a;
+}
+.hentDataKnap:active {
+	position:relative;
+	top:1px;
+}
+
+.container {
+	width: 100%;
+	text-align: center;
+}
