@@ -110,29 +110,43 @@ function scrape() {
 
             // Reset iterator.
             i = 1;
+            prefix = "";
             promise.filter(afleveringstabel, (element) => {
                 element.getText().then((tekst) => {
                     console.log(tekst)
 
-                    let prefix = "";
-
-                    //if (i % 3 === 0) {
-                    //    prefix = "Fag: ";
-                    //}
+                    if (i % 8 == 0) {
+                        prefix = "Titel: ";
+                    } else if (i % 7 == 0) {
+                        prefix = "Rettet: ";
+                    } else if (i % 6 == 0) {
+                        prefix = "Timer: ";
+                    } else if (i % 5 == 0) {
+                        prefix = "Frist: ";
+                    } else if (i % 4 == 0) {
+                        prefix = "Aflever: ";
+                    } else if (i % 3 == 0) {
+                        prefix = "Status: ";
+                    } else if (i % 2 == 0) {
+                        prefix = "Lærer: ";
+                    } else {
+                        prefix = "Modul: ";
+                    }
 
                     // Append the new text.
-                    fs.appendFile('afleveringer.txt', tekst + '\n', 'utf8', (err) => {
+                    fs.appendFile('afleveringer.txt', prefix + tekst + '\n', 'utf8', (err) => {
                         if (err) throw err;
                         console.log('Text appended to afleveringer.txt');
                     });
-                });
 
-                i++;
+                    i++;
+                });
             });
 
-        } finally{
             console.log("DONE");
             document.getElementById("writeHere").innerHTML = "Data hentet"
+            //driver.quit();
+        } finally{
             //driver.quit();
         }
     })();
