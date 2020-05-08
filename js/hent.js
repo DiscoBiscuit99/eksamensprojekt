@@ -64,8 +64,20 @@ function scrape() {
 
                     prefix = "";
 
-                    if (i % 3 == 0) {
+                    if (i % 7 == 0) {
+                        prefix = "Dokumenter: ";
+                    } else if (i % 6 == 0) {
+                        prefix = "Links: ";
+                    } else if (i % 5 == 0) {
+                        prefix = "Øvrigt materiale: ";
+                    } else if (i % 4 == 0) {
+                        prefix = "Lektier: ";
+                    } else if (i % 3 == 0) {
                         prefix = "Fag: ";
+                    } else if (i % 2 == 0) {
+                        prefix = "Ugedag: ";
+                    } else {
+                        prefix = "Dato: ";
                     }
 
                     // Append the new text.
@@ -73,9 +85,9 @@ function scrape() {
                         if (err) throw err;
                         console.log('Text appended to lektier.txt');
                     });
-                });
 
-                i++;
+                    i++;
+                });
             });
 
             /// Scrape under afleveringstabbet. ///
