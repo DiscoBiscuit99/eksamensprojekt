@@ -1,120 +1,120 @@
 Modul: 12.05.20: Innovation C, VAF HXvinC1
-Lærer: KASE
-Status: 
+Lærer: 
+Status: KASE
 Aflever: 
 Frist: 12.05.2020 22:00
 Timer: 0,00
 Rettet: 
 Titel: Innovation C, VAF, uge 20
 Status: 28.04.20: Teknikfag udvikling og produktion, el A - HTX HXtelA
+Frist: 14.04.20: Tysk fortsættersprog C, VAF HFXvtyC
+Modul: 03.04.2020 23:59
+Timer: 
+Modul: SBS
+Rettet: KROE
 Frist: 0,00
-Modul: 1,50
-Timer: 30.03.2020 22:00
-Modul: 
-Rettet: 
-Frist: 
 Titel: Log-bog som GRUPPEAFLEVERING fredag den 27.03
 Modul: KROE
-Timer: 
-Modul: 
-Frist: 1,50
-Rettet: Psykologi C, VAF, uge 14
-Lærer: 27.03.2020 23:59
+Timer: LSJ
+Modul: 5,00
+Frist: 
+Rettet: 
+Lærer: 
 Modul: 
 Titel: 
-Frist: 16.04.20: Matematik A, HTX HX218epr
-Lærer: Opgave Diffusion
-Status: Matematik A
-Rettet: 
-Modul: 27.03.20: Teknikfag udvikling og produktion, el A - HTX HXtelA
-Timer: 0,00
-Modul: 
-Titel: Matematik A
-Status: STP
-Lærer: 14.04.20: Tysk fortsættersprog C, VAF HFXvtyC
-Rettet: 01.04.20: Matematik A, HTX HX218epr
-Timer: 
-Modul: KROE
-Lærer: STP
-Status: 28.04.2020 22:00
-Titel: 30.03.20: Psykologi C, VAF HXvpsC2
-Modul: 
-Rettet: LSJ
-Modul: Tysk fortsættersprog C, VAF, uge 18
-Aflever: 30.03.2020 17:00
 Frist: 
 Lærer: 
-Modul: 30,00
-Titel: SBS
-Rettet: 
-Frist: 
-Status: 30.03.20: Dansk A, HTX HX218epr
-Aflever: 0,00
-Modul: DSOE
+Status: 01.04.2020 22:00
+Rettet: 30.03.2020 23:59
+Modul: 
 Timer: 
-Frist: 
-Titel: Kommentarer til fem indledninger
+Modul: 1,50
+Titel: Prog: Selvvalgte Sprog, Afsluttende Opgave
+Status: 
+Lærer: 
+Rettet: 31.03.2020 22:00
+Timer: 0,00
+Modul: 30.03.2020 17:00
+Lærer: 27.03.2020 23:59
+Status: 
+Titel: 02.04.20: Matematik A, HTX HX218epr
+Modul: 28.04.2020 22:00
+Rettet: 14.04.2020 22:00
+Aflever: 
+Modul: 3,00
+Frist: 0,00
+Lærer: 30,00
+Modul: Matematik A
+Titel: STP
+Rettet: 
+Frist: 3,00
+Status: 
+Aflever: Kommentarer til fem indledninger
+Modul: 
+Timer: 
+Frist: 31.03.20: Tysk fortsættersprog C, VAF HFXvtyC
+Titel: 
 Status: 16.04.2020 22:00
 Lærer: 
-Modul: 
-Timer: 14.04.2020 22:00
-Modul: 
-Lærer: 01.04.2020 22:00
-Rettet: Eksamensprojekt inkl. video af opstilling (link eller mp4)
-Titel: 30.03.20: Matematik A, HTX HX218epr
+Modul: Tysk fortsættersprog C, VAF, uge 18
+Timer: 30.03.20: Matematik A, HTX HX218epr
+Modul: Psykologi C, VAF, uge 14
+Lærer: Eksamensprojekt inkl. video af opstilling (link eller mp4)
+Rettet: LSJ
+Titel: 
 Frist: 5,00
-Timer: DLI
+Timer: Tysk fortsættersprog C, VAF, uge 16
+Modul: 30.03.20: Dansk A, HTX HX218epr
+Aflever: STP
+Status: 27.03.20: Teknikfag udvikling og produktion, el A - HTX HXtelA
+Rettet: 19.04.20: Idehistorie B, HTX HX218epr
 Modul: 
-Aflever: 3,00
-Status: 
-Rettet: 1,50
-Modul: 19.04.20: Idehistorie B, HTX HX218epr
-Titel: STP
+Titel: 02.04.2020 22:00
 Modul: 
+Lærer: 03.04.20: Teknikfag udvikling og produktion, el A - HTX HXtelA
+Frist: DSOE
+Aflever: 
+Rettet: Matematik A
+Timer: BM DP
+Modul: 
+Titel: 1,50
+Status: 14.04.2020 22:00
+Lærer: KROE
+Modul: 
+Rettet: 
+Frist: 14.04.20: Innovation C, VAF HXvinC1
 Lærer: 
-Frist: 
-Aflever: 03.04.2020 23:59
-Rettet: 30.03.2020 23:59
-Timer: 
-Modul: BM DP
-Titel: 
 Status: Matematik A
+Titel: 
+Modul: 0,00
+Timer: 
+Rettet: 30.03.2020 22:00
+Aflever: 30.03.20: Psykologi C, VAF HXvpsC2
+Status: KASE
 Lærer: 
-Modul: Tysk fortsættersprog C, VAF, uge 16
-Rettet: 0,00
+Frist: 
+Titel: Matematik A
+Modul: 
+Rettet: 
+Status: 1,50
+Frist: 03.04.2020 23:59
+Modul: 
+Timer: 19.04.2020 22:00
+Modul: 03.04.20: Programmering B, VAF HX218epr
+Titel: 01.04.20: Matematik A, HTX HX218epr
+Rettet: Opgave Diffusion
+Lærer: 
+Modul: 
+Timer: 0,00
+Modul: 
 Frist: 0,00
-Lærer: Matematik A
-Status: 0,00
-Titel: 
-Modul: 14.04.20: Innovation C, VAF HXvinC1
-Timer: 03.04.2020 23:59
-Rettet: 03.04.20: Teknikfag udvikling og produktion, el A - HTX HXtelA
-Aflever: 
-Status: 
-Lærer: 31.03.20: Tysk fortsættersprog C, VAF HFXvtyC
+Status: DLI
+Titel: STP
+Modul: Log-bog - Fredag den 3. april
+Timer: 
 Frist: 
-Titel: 19.04.2020 22:00
-Modul: KASE
-Rettet: 5,00
-Status: KROE
-Frist: Log-bog - Fredag den 3. april
-Modul: 
-Timer: LSJ
-Modul: Aflevering af eksamensprojekt idehistorie
-Titel: 
-Rettet: 
-Lærer: 
-Modul: 
-Timer: 03.04.20: Programmering B, VAF HX218epr
-Modul: Prog: Selvvalgte Sprog, Afsluttende Opgave
-Frist: 
-Status: 02.04.20: Matematik A, HTX HX218epr
-Titel: 
-Modul: 14.04.2020 22:00
-Timer: 02.04.2020 22:00
-Frist: STP
 Aflever: 
-Status: 
-Lærer: 3,00
-Rettet: 
-Titel: 31.03.2020 22:00
+Status: Aflevering af eksamensprojekt idehistorie
+Lærer: STP
+Rettet: 16.04.20: Matematik A, HTX HX218epr
+Titel: 
