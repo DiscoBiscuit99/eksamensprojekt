@@ -16,8 +16,8 @@ function scrape() {
 
     (async function scrapeLudus() {
         let driver = await new Builder().withCapabilities({
-            'browserName': 'firefox', 
-            acceptSslCerts: true, 
+            'browserName': 'firefox',
+            acceptSslCerts: true,
             acceptInsecureCerts: true
         }).build()
 
@@ -60,7 +60,7 @@ function scrape() {
 
             // Initialize iterator and prefix table.
             let i = 0;
-            let prefixes = ["Dato: ", "Ugedag: ", "Fag: ", "Lektier: ", 
+            let prefixes = ["Dato: ", "Ugedag: ", "Fag: ", "Lektier: ",
                             "Øvrigt materiale: ", "Links: ", "Dokumenter: "];
 
             promise.filter(lektietabel, (element) => {
@@ -76,7 +76,7 @@ function scrape() {
                     i++;
                 });
             });
-        
+
             /// Scrape under everingstabbet. ///
 
             let lektieMenuKnapper = await driver.findElements(By.className('v-caption'));
@@ -97,7 +97,7 @@ function scrape() {
 
             // Reset iterator.
             i = 0;
-            prefixes = ["Modul: ", "Lærer: ", "Status: ", "Aflever: ", 
+            prefixes = ["Modul: ", "Lærer: ", "Status: ", "Aflever: ",
                         "Frist: ", "Timer: ", "Rettet: ", "Titel: "];
 
             promise.filter(everingstabel, (element) => {
@@ -109,10 +109,27 @@ function scrape() {
                         if (err) throw err;
                         console.log('Text appended to everinger.txt');
                     });
-                
+
                     i++;
                 });
             });
+
+            let karakterKnap = menuKnapper[1];
+
+            console.log("sleep");
+            await driver.sleep(1000);
+            console.log("wake");
+
+            await karakterKnap.click();
+            let menuPopup = await driver.findElements(By.className('popupContent'));
+            let kursistKnap = menuPopup[3];
+            console.log("sleep");
+            await driver.sleep(1000);
+            console.log("wake");
+            await kursistKnap.click();
+
+
+
 
             console.log("DONE");
 
