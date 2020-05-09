@@ -1,48 +1,34 @@
 Dato: 12.05.20
 Ugedag: Tirsdag
 Fag: Programmering B, VAF HX218epr
-<<<<<<< HEAD
-<<<<<<< HEAD
 Lektier: Vi mødes på Teams
 Øvrigt materiale: 
 Links: 
 Dokumenter: 
-Dato: 12.05.20
+Dato: Tirsdag
 Ugedag: 
-Fag: Programmering B, VAF HX218epr
-Lektier: 
-Øvrigt materiale: Kære valghold,
-=======
+Fag: Tirsdag
 Lektier: 
 Øvrigt materiale: 
 Links: 
-=======
-Lektier: 
-Øvrigt materiale: 
-Links: 
->>>>>>> 8c8a05b89fe262aefccc9344981859c00c665a0c
-Dokumenter: Vi mødes på Teams
-Lektier: Tirsdag
-Fag: 
-Øvrigt materiale: Vi mødes på teams
-Dato: 
-Links: 
-Dato: 
 Dokumenter: 12.05.20
-Øvrigt materiale: Grupper og intergruppekonflikter
-Lektier: 12.05.20: Innovation C, VAF HXvinC1
-Aflevering
-Dato: 07.05.20
-Links: 
 Dato: 04.05.20
-Øvrigt materiale: Mandag
-Dokumenter: Psykologi C, VAF HXvpsC2
-Ugedag: Torsdag
-Dato: Kære valghold,
-<<<<<<< HEAD
->>>>>>> 8c8a05b89fe262aefccc9344981859c00c665a0c
-=======
->>>>>>> 8c8a05b89fe262aefccc9344981859c00c665a0c
+Ugedag: 12.05.20: Innovation C, VAF HXvinC1
+Aflevering
+Fag: 
+Lektier: Tysk fortsættersprog C, VAF HFXvtyC
+Øvrigt materiale: 
+Links: Psykologi C, VAF HXvpsC2
+Dokumenter: Grupper og intergruppekonflikter
+Dato: 
+Ugedag: Mandag
+Fag: Innovation C, VAF, uge 20
+0 timer. Afleveres inden kl. 22:00
+(Opgaven indeholder ingen beskrivelse)
+Lektier: 
+Øvrigt materiale: Se Die Welle - og lav gruppearbejde til fremlæggelse til næste uge.
+Links: 
+Dokumenter: Kære valghold,
 
 Længe siden!
 
@@ -50,84 +36,37 @@ Vi mødes til fælles opstart i vores gruppe på Teams kl. 12.00.
 Her skal vi i gang med det sidste forløb: Socialpsykologi.
 
 - Simone.
-<<<<<<< HEAD
-<<<<<<< HEAD
-Links: 
-Dokumenter: Vi mødes på teams
-Dato: 
-Ugedag: Tirsdag
-Fag: 
+Dato: 11.05.20
+Ugedag: Mandag
+Fag: Torsdag
 Lektier: 
-Øvrigt materiale: 
-Links: 
-Dokumenter: 
-Dato: 
-Ugedag: 
-Fag: 12.05.20: Innovation C, VAF HXvinC1
-Aflevering
-Lektier: 07.05.20
-Øvrigt materiale: 
-Links: 04.05.20
-Dokumenter: Grupper og intergruppekonflikter
-Dato: 
-Ugedag: 
-Fag: 
-Lektier: Innovation C, VAF, uge 20
-0 timer. Afleveres inden kl. 22:00
-(Opgaven indeholder ingen beskrivelse)
 Øvrigt materiale: Torsdag
 Links: 
-Dokumenter: Mandag
-Dato: 
-Ugedag: 04.05.20
-Fag: 
-Lektier: 05.05.20
-Øvrigt materiale: 
-=======
-Links: Innovation C, VAF, uge 20
-0 timer. Afleveres inden kl. 22:00
-(Opgaven indeholder ingen beskrivelse)
-Øvrigt materiale: Idehistorie B, HTX HX218epr
-Ugedag: 
-Fag: 
-Dokumenter: 05.05.20
-Dato: Tirsdag
->>>>>>> 8c8a05b89fe262aefccc9344981859c00c665a0c
-Links: Dansk A, HTX HX218epr
 Dokumenter: 04.05.20
-Dato: Psykologi C, VAF HXvpsC2
+Dato: Programmering B, VAF HX218epr
 Ugedag: 
-Fag: Mandag
-Lektier: 05.05.20
-Øvrigt materiale: Tirsdag
-Links: 
-Dokumenter: Lektionerne er gjort virtuelle - vi mødes på Teams kl. 08:15 ;)
-Dato: Mandag
-Ugedag: Matematik A, HTX HX218epr
-Fag: Afleveringsopgave_innovation i samfundet.docx
-Afleveringsopgave_innovation i samfundet_3års.docx
-Lektier: 
-Øvrigt materiale: Tirsdag
+Fag: Dansk A, HTX HX218epr
+Lektier: Dansk A, HTX HX218epr
+Øvrigt materiale: 
 Links: Idehistorie B, HTX HX218epr
+Dokumenter: 
+Dato: Mandag
+Ugedag: Vi mødes på Teams
+Fag: 
+Lektier: Tjek ind på Teams kl. 10:00 - gruppe 1-4 skal fremlægge.
+Øvrigt materiale: Lektionerne er gjort virtuelle - vi mødes på Teams kl. 08:15 ;)
+Links: Afleveringsopgave_innovation i samfundet.docx
+Afleveringsopgave_innovation i samfundet_3års.docx
+Dokumenter: Vi afholder to fremlæggelser
+Dato: Die Welle - Aufgaben in Gruppen(1).docx
+Ugedag: Dansk A, HTX HX218epr
+Fag: 
+Lektier: 07.05.20
+Øvrigt materiale: 
+Links: 
 Dokumenter: 11.05.20
 Dato: 
-<<<<<<< HEAD
-Ugedag: Dansk A, HTX HX218epr
-Fag: Kære 3.E,
-
-husk vi mødes ALLE i Teams kl 08:15 til færdighedsregning og fælles beskeder.
-
-Efterfølgende fortsætter i med repetition af pensum, regning af både færdighedsregning og typeopgaver.
-
-mvh.,
-
-Steffen
-Lektier: 11.05.20
-Øvrigt materiale: 
-Links: Idehistorie B, HTX HX218epr
-Dokumenter: Fremlæggelse af eksamensprojekter
-Dato: Mandag
-Ugedag: 
+Ugedag: 05.05.20
 Fag: Tjek ind i dansk-mappen på Teams kl. 10 til en hurtig igangsætning.
 
 Dagens plan:
@@ -138,56 +77,48 @@ Jeg kan kontaktes via Teams eller mail dsoe@rybners.dk
 
 God arbejdslyst ;)
 Lektier: 
-Øvrigt materiale: Mandag
-Links: 
-Dokumenter: Fremlæggelse af eksamensprojekter
-=======
-Links: Innovation C, VAF, uge 20
-0 timer. Afleveres inden kl. 22:00
-(Opgaven indeholder ingen beskrivelse)
-Øvrigt materiale: Idehistorie B, HTX HX218epr
-Ugedag: 
-Fag: 
-Dokumenter: 05.05.20
-Dato: Tirsdag
-Links: Dansk A, HTX HX218epr
-Dato: 
-Lektier: 
-=======
-Lektier: 
->>>>>>> 8c8a05b89fe262aefccc9344981859c00c665a0c
-Fag: Vi afholder to fremlæggelser
-Ugedag: 
-Dokumenter: 05.05.20
-Links: 
-Dato: Idehistorie B, HTX HX218epr
-Ugedag: Lektionerne er gjort virtuelle - vi mødes på Teams kl. 08:15 ;)
-Fag: 04.05.20
 Øvrigt materiale: 
-Dato: 
-Dokumenter: 04.05.20
-Dato: Tirsdag
-Lektier: 
-Øvrigt materiale: Fremlæggelse af eksamensprojekter
-Ugedag: 
+Links: 
+Dokumenter: Torsdag
 Dato: Mandag
-Links: Afleveringsopgave_innovation i samfundet.docx
-Afleveringsopgave_innovation i samfundet_3års.docx
-Dokumenter: 
-Øvrigt materiale: Mandag
-Fag: Idehistorie B, HTX HX218epr
+Ugedag: 
+Fag: Tirsdag
 Lektier: 
+Øvrigt materiale: 
+Links: 07.05.20
+Dokumenter: 
 Dato: 
-Links: 
-Øvrigt materiale: Matematik A, HTX HX218epr
-Dokumenter: 11.05.20
+Ugedag: Psykologi C, VAF HXvpsC2
+Fag: 05.05.20
+Lektier: Programmering B, VAF HX218epr
+Øvrigt materiale: 07.05.20
+Links: Vi mødes på teams
+Dokumenter: 
+Dato: 05.05.20
+Ugedag: Idehistorie B, HTX HX218epr
+Fag: Kære valghold,
+
+Vi mødes i Teams kl. 12.
+I dag skal det handle om konformitet.
+
+Gruppe 1 og 2 har opdateret oversigtsdokumentet i Teams om Minimalgruppe-eksperimentet og Robbers Cave-eksperimentet, og er klar til at give resten af klassen et kort recap med fokus på metodisk kritik og bias.
+
+- Simone.
+Lektier: 
+Øvrigt materiale: 
+Links: Fremlæggelse af eksamensprojekter
+Dokumenter: 
+Dato: 05.05.20
+Ugedag: Tirsdag
 Fag: 
-Ugedag: Dansk A, HTX HX218epr
-Dato: Fremlæggelse af eksamensprojekter
-Links: 
-Dato: 
-Ugedag: 07.05.20
-Dokumenter: Kære 3.E,
+Lektier: 
+Øvrigt materiale: 
+Links: 04.05.20
+Dokumenter: Idehistorie B, HTX HX218epr
+Dato: Mandag
+Ugedag: Tirsdag
+Fag: 
+Lektier: Kære 3.E,
 
 husk vi mødes ALLE i Teams kl 08:15 til færdighedsregning og fælles beskeder.
 
@@ -196,122 +127,6 @@ Efterfølgende fortsætter i med repetition af pensum, regning af både færdigh
 mvh.,
 
 Steffen
-Lektier: Mandag
-Øvrigt materiale: 05.05.20
-Links: Tjek ind i dansk-mappen på Teams kl. 10 til en hurtig igangsætning.
-
-Dagens plan:
-
-I skal arbejde virtuelt i grupper med at repetere jeres eksamensemner.
-Vi ser eksamensfilmen på klassen på onsdag i stedet for at bøvle med at vise den fra min skærm via Teams i dag.
-Jeg kan kontaktes via Teams eller mail dsoe@rybners.dk
-
-God arbejdslyst ;)
-<<<<<<< HEAD
->>>>>>> 8c8a05b89fe262aefccc9344981859c00c665a0c
-=======
->>>>>>> 8c8a05b89fe262aefccc9344981859c00c665a0c
-Dato: 
-Ugedag: Dansk A, HTX HX218epr
-Fag: 
-Lektier: 
-<<<<<<< HEAD
-Øvrigt materiale: 07.05.20
-Links: Psykologi C, VAF HXvpsC2
-Dokumenter: 
-=======
-Fag: 07.05.20
-Dokumenter: Torsdag
-Dato: 
-Links: Psykologi C, VAF HXvpsC2
-Dato: Tirsdag
-Ugedag: 
 Øvrigt materiale: 
-Lektier: 
-<<<<<<< HEAD
-Dokumenter: Torsdag
-Links: 
->>>>>>> 8c8a05b89fe262aefccc9344981859c00c665a0c
-=======
-Fag: 07.05.20
-Dokumenter: Torsdag
-Dato: 
-Links: Psykologi C, VAF HXvpsC2
-Dato: Tirsdag
-Ugedag: 
-Øvrigt materiale: 
-Lektier: 
-Dokumenter: Torsdag
-Links: 
->>>>>>> 8c8a05b89fe262aefccc9344981859c00c665a0c
-Dato: Kære valghold,
-
-Vi mødes i Teams kl. 12.
-I dag skal det handle om konformitet.
-
-Gruppe 1 og 2 har opdateret oversigtsdokumentet i Teams om Minimalgruppe-eksperimentet og Robbers Cave-eksperimentet, og er klar til at give resten af klassen et kort recap med fokus på metodisk kritik og bias.
-
-- Simone.
-<<<<<<< HEAD
-<<<<<<< HEAD
-Ugedag: 
-Fag: Tjek ind på Teams kl. 10:00 - gruppe 1-4 skal fremlægge.
-Lektier: 
-Øvrigt materiale: 07.05.20
-Links: Torsdag
-Dokumenter: 
-Dato: Idehistorie B, HTX HX218epr
-Ugedag: Programmering B, VAF HX218epr
-Fag: 05.05.20
-Lektier: 
-Øvrigt materiale: Die Welle - Aufgaben in Gruppen(1).docx
-Links: Torsdag
-Dokumenter: 
-Dato: Tirsdag
-Ugedag: Vi afholder to fremlæggelser
-Fag: Vi mødes på Teams
-Lektier: Se Die Welle - og lav gruppearbejde til fremlæggelse til næste uge.
-Øvrigt materiale: Tysk fortsættersprog C, VAF HFXvtyC
-Links: 05.05.20
-Dokumenter: Tirsdag
-=======
-Øvrigt materiale: Mandag
-Fag: Tysk fortsættersprog C, VAF HFXvtyC
-Ugedag: Dansk A, HTX HX218epr
-Dato: Se Die Welle - og lav gruppearbejde til fremlæggelse til næste uge.
-Dokumenter: Programmering B, VAF HX218epr
-Øvrigt materiale: Vi mødes på Teams
-Ugedag: 
-Fag: 
-Lektier: 
-Dato: 05.05.20
-Links: Tjek ind på Teams kl. 10:00 - gruppe 1-4 skal fremlægge.
-Dokumenter: 
-Lektier: Tirsdag
-Fag: 11.05.20
-Ugedag: 
-=======
-Øvrigt materiale: Mandag
-Fag: Tysk fortsættersprog C, VAF HFXvtyC
-Ugedag: Dansk A, HTX HX218epr
-Dato: Se Die Welle - og lav gruppearbejde til fremlæggelse til næste uge.
-Dokumenter: Programmering B, VAF HX218epr
-Øvrigt materiale: Vi mødes på Teams
-Ugedag: 
-Fag: 
-Lektier: 
-Dato: 05.05.20
-Links: Tjek ind på Teams kl. 10:00 - gruppe 1-4 skal fremlægge.
-Dokumenter: 
-Lektier: Tirsdag
-Fag: 11.05.20
-Ugedag: 
->>>>>>> 8c8a05b89fe262aefccc9344981859c00c665a0c
-Øvrigt materiale: 
-Links: 
-Dato: Programmering B, VAF HX218epr
-Dokumenter: Die Welle - Aufgaben in Gruppen(1).docx
-<<<<<<< HEAD
->>>>>>> 8c8a05b89fe262aefccc9344981859c00c665a0c
-=======
->>>>>>> 8c8a05b89fe262aefccc9344981859c00c665a0c
+Links: Matematik A, HTX HX218epr
+Dokumenter: Fremlæggelse af eksamensprojekter
