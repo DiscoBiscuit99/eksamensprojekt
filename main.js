@@ -1,17 +1,18 @@
-const { app, BrowserWindow } = require('electron');
+const { app, BrowserWindow, Menu } = require('electron');
+
+//Menu.setApplicationMenu(null);
 
 function createWindow () {
 	const win = new BrowserWindow({
-		width: 1000,
+		width: 1600,
 		height: 1000,
+        autoHideMenuBar: true,
 		webPreferences: {
-		nodeIntegration: true
+            nodeIntegration: true
 		}
 	});
 
 	win.loadFile('html/start.html');
-
-	//win.webContents.openDevTools();
 }
 
 app.whenReady().then(createWindow);
@@ -27,3 +28,4 @@ app.on('activate', () => {
 		createWindow();
 	}
 });
+

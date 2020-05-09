@@ -55,33 +55,17 @@ function scrape() {
                 if (err) throw err;
             });
 
-            // Initialize iterator and prefix.
-            let i = 1;
-            let prefix = "";
+            // Initialize iterator and prefix table.
+            let i = 0;
+            let prefixes = ["Dato: ", "Ugedag: ", "Fag: ", "Lektier: ", 
+                            "Øvrigt materiale: ", "Links: ", "Dokumenter: "];
+
             promise.filter(lektietabel, (element) => {
                 element.getText().then((tekst) => {
                     console.log(tekst);
-                    
-                    prefix = "";
-
-                    if (i % 7 == 0) {
-                        prefix = "Dokumenter: ";
-                    } else if (i % 6 == 0) {
-                        prefix = "Links: ";
-                    } else if (i % 5 == 0) {
-                        prefix = "Øvrigt materiale: ";
-                    } else if (i % 4 == 0) {
-                        prefix = "Lektier: ";
-                    } else if (i % 3 == 0) {
-                        prefix = "Fag: ";
-                    } else if (i % 2 == 0) {
-                        prefix = "Ugedag: ";
-                    } else {
-                        prefix = "Dato: ";
-                    }
 
                     // Append the new text.
-                    fs.appendFile('lektier.txt', prefix + tekst + '\n', 'utf8', (err) => {
+                    fs.appendFile('lektier.txt', prefixes[i % prefixes.length] + tekst + '\n', 'utf8', (err) => {
                         if (err) throw err;
                         console.log('Text appended to lektier.txt');
                     });
@@ -90,53 +74,37 @@ function scrape() {
                 });
             });
         
-            /// Scrape under afleveringstabbet. ///
+            /// Scrape under everingstabbet. ///
 
             let lektieMenuKnapper = await driver.findElements(By.className('v-caption'));
-            let afleveringsKnap = await lektieMenuKnapper[1];
+            let everingsKnap = await lektieMenuKnapper[1];
 
-            await afleveringsKnap.click();
+            await everingsKnap.click();
 
             console.log("sleep");
             await driver.sleep(1000);
             console.log("wake");
 
-            let afleveringstabel = await driver.findElements(By.className('v-table-cell-wrapper'));
+            let everingstabel = await driver.findElements(By.className('v-table-cell-wrapper'));
 
             // Clear the file's contents.
-            fs.writeFile('afleveringer.txt', '', 'utf8', (err) => {
+            fs.writeFile('everinger.txt', '', 'utf8', (err) => {
                 if (err) throw err;
             });
 
             // Reset iterator.
-            i = 1;
-            prefix = "";
-            promise.filter(afleveringstabel, (element) => {
+            i = 0;
+            prefixes = ["Modul: ", "Lærer: ", "Status: ", "Aflever: ", 
+                        "Frist: ", "Timer: ", "Rettet: ", "Titel: "];
+
+            promise.filter(everingstabel, (element) => {
                 element.getText().then((tekst) => {
                     console.log(tekst)
 
-                    if (i % 8 == 0) {
-                        prefix = "Titel: ";
-                    } else if (i % 7 == 0) {
-                        prefix = "Rettet: ";
-                    } else if (i % 6 == 0) {
-                        prefix = "Timer: ";
-                    } else if (i % 5 == 0) {
-                        prefix = "Frist: ";
-                    } else if (i % 4 == 0) {
-                        prefix = "Aflever: ";
-                    } else if (i % 3 == 0) {
-                        prefix = "Status: ";
-                    } else if (i % 2 == 0) {
-                        prefix = "Lærer: ";
-                    } else {
-                        prefix = "Modul: ";
-                    }
-
                     // Append the new text.
-                    fs.appendFile('afleveringer.txt', prefix + tekst + '\n', 'utf8', (err) => {
+                    fs.appendFile('everinger.txt', prefixes[i % prefixes.length] + tekst + '\n', 'utf8', (err) => {
                         if (err) throw err;
-                        console.log('Text appended to afleveringer.txt');
+                        console.log('Text appended to everinger.txt');
                     });
                 
                     i++;

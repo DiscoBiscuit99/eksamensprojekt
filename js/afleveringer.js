@@ -54,83 +54,39 @@ let table = document.getElementById('afleveringstabel');
 table.appendChild(row)
 
 let i = 1;
+let content;
+let switchNext = false;
 readInterface.on('line', (line) => {
-    if (i % 8 == 0) {
-        let column = document.createElement('td');
+    content = document.createTextNode(line);
 
-        let content = document.createTextNode(line);
+    let column;
 
-        column.appendChild(content);
-        row.appendChild(column);
-
-        document.getElementById('afleveringstabel').appendChild(row);
-    } else if (i % 7 == 0) {
-        let column = document.createElement('td');
-
-        let content = document.createTextNode(line);
-
-        column.appendChild(content);
-        row.appendChild(column);
-
-        document.getElementById('afleveringstabel').appendChild(row);
-    } else if (i % 6 == 0) {
-        let column = document.createElement('td');
-
-        let content = document.createTextNode(line);
-
-        column.appendChild(content);
-        row.appendChild(column);
-
-        document.getElementById('afleveringstabel').appendChild(row);
-    } else if (i % 5 == 0) {
-        let column = document.createElement('td');
-
-        let content = document.createTextNode(line);
-
-        column.appendChild(content);
-        row.appendChild(column);
-
-        document.getElementById('afleveringstabel').appendChild(row);
-    } else if (i % 4 == 0) {
-        let column = document.createElement('td');
-
-        let content = document.createTextNode(line);
-
-        column.appendChild(content);
-        row.appendChild(column);
-
-        document.getElementById('afleveringstabel').appendChild(row);
-    } else if (i % 3 == 0) {
-        let column = document.createElement('td');
-
-        let content = document.createTextNode(line);
-
-        column.appendChild(content);
-        row.appendChild(column);
-
-        document.getElementById('afleveringstabel').appendChild(row);
-    } else if (i % 2 == 0) {
-        let column = document.createElement('td');
-
-        let content = document.createTextNode(line);
-
-        column.appendChild(content);
-        row.appendChild(column);
-
-        document.getElementById('afleveringstabel').appendChild(row);
-    } else {
+    if (line.includes("Modul")) {  
         row = document.createElement('tr');
 
-        let column = document.createElement('td');
-
-        let content = document.createTextNode(line);
+        column = document.createElement('td');
 
         column.appendChild(content);
         row.appendChild(column);
 
         document.getElementById('afleveringstabel').appendChild(row);
+    } else if (line.includes("Lærer") ||
+            line.includes("Status") || line.includes("Aflever") || 
+            line.includes("Frist") || line.includes("Timer") || 
+            line.includes("Rettet") || line.includes("Titel")) {
+        column = document.createElement('td');
+
+        column.appendChild(content);
+        row.appendChild(column);
+
+        //document.getElementById('lektietabel').appendChild(row);
+    } else {
+    //    column.appendChild(content);
+    //    row.appendChild(column);
+
+    //    document.getElementById('lektietable').appendChild(row);
     }
+
     i++;
 });
-
 
