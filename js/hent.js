@@ -11,6 +11,9 @@ let password = userdata.user[0].password;
 console.log("Username:", username + ", Password:", password);
 
 function scrape() {
+    let fetchingDataText = document.createTextNode("Henter data, bliv venligst på siden...");
+    document.getElementById('getDataText').appendChild(fetchingDataText);
+
     (async function scrapeLudus() {
         let driver = await new Builder().withCapabilities({
             'browserName': 'firefox', 
@@ -116,6 +119,8 @@ function scrape() {
             //driver.quit();
         } finally{
             //driver.quit();
+
+            document.getElementById('getDataText').innerHTML = 'Data hentet.';
         }
     })();
 }
