@@ -91,7 +91,7 @@ function scrape() {
             let everingstabel = await driver.findElements(By.className('v-table-cell-wrapper'));
 
             // Clear the file's contents.
-            fs.writeFile('everinger.txt', '', 'utf8', (err) => {
+            fs.writeFile('afleveringer.txt', '', 'utf8', (err) => {
                 if (err) throw err;
             });
 
@@ -105,15 +105,19 @@ function scrape() {
                     console.log(tekst)
 
                     // Append the new text.
-                    fs.appendFile('everinger.txt', prefixes[i % prefixes.length] + tekst + '\n', 'utf8', (err) => {
+                    fs.appendFile('afleveringer.txt', prefixes[i % prefixes.length] + tekst + '\n', 'utf8', (err) => {
                         if (err) throw err;
-                        console.log('Text appended to everinger.txt');
+                        console.log('Text appended to afleveringer.txt');
                     });
                 
                     i++;
                 });
             });
 
+            menuKnapper[1].click();
+
+
+            
             console.log("DONE");
 
             //driver.quit();
