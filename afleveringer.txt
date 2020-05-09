@@ -1,6 +1,11 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 Modul: 12.05.20: Innovation C, VAF HXvinC1
 Lærer: KASE
+=======
+Modul: KASE
+Lærer: 12.05.20: Innovation C, VAF HXvinC1
+>>>>>>> 8c8a05b89fe262aefccc9344981859c00c665a0c
 =======
 Modul: KASE
 Lærer: 12.05.20: Innovation C, VAF HXvinC1
@@ -17,6 +22,7 @@ Modul: 01.04.20: Matematik A, HTX HX218epr
 Timer: 0,00
 Modul: 30.03.2020 17:00
 Rettet: 
+<<<<<<< HEAD
 <<<<<<< HEAD
 Titel: Innovation C, VAF, uge 20
 Status: 28.04.20: Teknikfag udvikling og produktion, el A - HTX HXtelA
@@ -362,6 +368,25 @@ Rettet: STP
 Modul: 
 Timer: 14.04.2020 22:00
 Modul: 
+=======
+Frist: 0,00
+Titel: Log-bog som GRUPPEAFLEVERING fredag den 27.03
+Modul: 
+Timer: 
+Modul: STP
+Frist: 30.03.20: Matematik A, HTX HX218epr
+Rettet: 0,00
+Lærer: 
+Modul: 
+Titel: 27.03.2020 23:59
+Frist: 
+Lærer: 
+Status: 
+Rettet: STP
+Modul: 
+Timer: 14.04.2020 22:00
+Modul: 
+>>>>>>> 8c8a05b89fe262aefccc9344981859c00c665a0c
 Titel: 
 Status: 28.04.2020 22:00
 Lærer: 
@@ -408,6 +433,7 @@ Lærer: Prog: Selvvalgte Sprog, Afsluttende Opgave
 Frist: 31.03.2020 22:00
 Aflever: Matematik A
 Rettet: LSJ
+<<<<<<< HEAD
 Timer: 
 Modul: 3,00
 Titel: 
@@ -502,12 +528,43 @@ Lærer:
 Frist: 
 Timer: 11.10.2019 22:00
 Modul: 
+=======
+Timer: 
+Modul: 3,00
+Titel: 
+Status: Matematik A
+Lærer: 02.04.20: Matematik A, HTX HX218epr
+Modul: 
+Rettet: 30.03.20: Psykologi C, VAF HXvpsC2
+Frist: 
+Lærer: 
+Status: 16.04.20: Matematik A, HTX HX218epr
+Titel: 
+Modul: 14.04.20: Innovation C, VAF HXvinC1
+Timer: STP
+Rettet: 19.04.2020 22:00
+Aflever: SBS
+Status: 
+Lærer: 03.04.2020 23:59
+Frist: STP
+Titel: 16.04.2020 22:00
+Modul: KASE
+Rettet: 
+Status: 0,00
+Frist: 
+Modul: Aflevering af eksamensprojekt idehistorie
+Timer: 0,00
+Modul: 
+Titel: 
+Rettet: 
+>>>>>>> 8c8a05b89fe262aefccc9344981859c00c665a0c
 Lærer: 
 Rettet: Terminsprøve Mat A - (IKKE SPS-Elever)
 Titel: 
 Modul: 23.01.20: Matematik A, HTX HX218epr
 Timer: Psykologi C, VAF, uge 49
 Modul: 
+<<<<<<< HEAD
 <<<<<<< HEAD
 Aflever: 3,00
 Frist: Matematik A, HTX, uge 39
@@ -620,6 +677,9 @@ Rettet:
 Titel: Aflevering Projekt Vektorer 3D
 =======
 Timer: 
+=======
+Timer: 
+>>>>>>> 8c8a05b89fe262aefccc9344981859c00c665a0c
 Modul: Log-bog - Fredag den 3. april
 Frist: 03.04.20: Programmering B, VAF HX218epr
 Status: 
@@ -632,4 +692,7 @@ Status: 14.04.20: Tysk fortsættersprog C, VAF HFXvtyC
 Lærer: 14.04.2020 22:00
 Rettet: 0,00
 Titel: 1,50
+<<<<<<< HEAD
+>>>>>>> 8c8a05b89fe262aefccc9344981859c00c665a0c
+=======
 >>>>>>> 8c8a05b89fe262aefccc9344981859c00c665a0c
