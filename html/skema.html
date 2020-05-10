@@ -1,166 +1,678 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-	<meta charset="UTF-8">
-	<link rel="stylesheet" href="../css/base.css">
-	<title>Eksamensprojekt</title>
-	<style>
-    table {
-      border-collapse: collapse;
-      border: 2px solid rgb(200,200,200);
-      letter-spacing: 1px;
-      font-size: 0.8rem;
-    }
-
-    td, th {
-      border: 1px solid rgb(190,190,190);
-      padding: 10px 20px;
-    }
-
-    td {
-      text-align: center;
-    }
-
-    caption {
-      padding: 10px;
-    }
-    </style>
+  <link rel="stylesheet" href="skem.css">
 </head>
 
+</head>
 <body>
-	<div class="navbar">
-		<ul>
-			<li><a href="start.html">Start</a></li>
-			<li><a href="skema.html">Skema</a></li>
-			<li><a href="lektier.html">Lektier</a></li>
-			<li><a href="afleveringer.html">Afleveringer</a></li>
-			<li><a href="karakter.html">Karakter</a></li>
-			<li><a href="login.html">Login</a></li>
-		</ul>
+
+<h2>Skema</h2>
+<table style="width:100%">
+  <tr style="background-color:#88D134">
+    <th>Tidspunkt</th>
+    <th>Mandag</th> 
+    <th>Tirsdag</th>
+	<th>Onsdag</th>
+	<th>Torsdag</th>
+	<th>Fredag</th>
+  </tr>
+  <tr style="background-color:#D7FBAD">
+    <td>8:15.9:00</td>
+    <td><b>Matematik A</b>
+	<p>Dagens Procedure</p>
+	<div class="popup" onclick="myFunction()">Klik her!
+		<span class="popuptext" id="myPopup">Lektiebesked</span>
 	</div>
-	<h1 class="title">Skema</h1>
 
-	<table align="center">
-      <colgroup>
-        <col span="2">
-        <col style="background-color:#97DB9A;">
-        <col style="width:42px;">
-        <col style="background-color:#97DB9A;">
-        <col style="background-color:#DCC48E; border:4px solid #C1437A;">
-        <col span="2" style="width:42px;">
-      </colgroup>
-      <tr>
-        <td>&nbsp;</td>
-        <th>Mandag</th>
-        <th>Tirsdag</th>
-        <th>Onsdag</th>
-        <th>Torsdag</th>
-        <th>Fredag</th>
-        <th>Lørdag</th>
-        <th>Søndag</th>
-      </tr>
-      <tr>
-        <th>8:15  -  9:00</th>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td>German</td>
-        <td>Dutch</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-      </tr>
-      <tr>
-        <th>9:00  -  9:45</th>
-        <td>English</td>
-        <td>English</td>
-        <td>&nbsp;</td>
-        <td>German</td>
-        <td>Dutch</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-      </tr>
-      <tr>
-        <th>9:45  -  10:00</th>
-        <td>&nbsp;</td>
-        <td>German</td>
-        <td>&nbsp;</td>
-        <td>German</td>
-        <td>Dutch</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-      </tr>
-      <tr>
-        <th>10:00 - 10:45</th>
-        <td>&nbsp;</td>
-        <td>English</td>
-        <td>&nbsp;</td>
-        <td>English</td>
-        <td>Dutch</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-      </tr>
-			<tr>
-        <th>10:45 - 11:30</th>
-        <td>&nbsp;</td>
-        <td>English</td>
-        <td>&nbsp;</td>
-        <td>English</td>
-        <td>Dutch</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-      </tr>
-			<tr>
-        <th>11:30 - 12:00</th>
-        <td>&nbsp;</td>
-        <td>English</td>
-        <td>&nbsp;</td>
-        <td>English</td>
-        <td>Dutch</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-      </tr>
-			<tr>
-        <th>12:00 - 12:45</th>
-        <td>&nbsp;</td>
-        <td>English</td>
-        <td>&nbsp;</td>
-        <td>English</td>
-        <td>Dutch</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-      </tr>
-			<tr>
-        <th>12:45 - 13:30</th>
-        <td>&nbsp;</td>
-        <td>English</td>
-        <td>&nbsp;</td>
-        <td>English</td>
-        <td>Dutch</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-      </tr>
-			<tr>
-        <th>13:30 - 13:35</th>
-        <td>&nbsp;</td>
-        <td>English</td>
-        <td>&nbsp;</td>
-        <td>English</td>
-        <td>Dutch</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-      </tr>
-			<tr>
-        <th>13:35 - 14:20</th>
-        <td>&nbsp;</td>
-        <td>English</td>
-        <td>&nbsp;</td>
-        <td>English</td>
-        <td>Dutch</td>
-        <td>&nbsp;</td>
-        <td>&nbsp;</td>
-      </tr>
-    </table>
+	<script>
+	// When the user clicks on div, open the popup
+	function myFunction() {
+	  var popup = document.getElementById("myPopup");
+	  popup.classList.toggle("show");
+	}
+	</script>
+</td>
 
-	<script src="../js/skema.js"></script>
+	<td><b>Engelsk B -> A</b>
+	<p>Dagens Procedure</p>
+	<div class="popup2" onclick="myFunction2()">Klik her!
+		<span class="popuptext2" id="myPopup2">Lektiebesked</span>
+	</div>
+
+	<script>
+	// When the user clicks on div, open the popup
+	function myFunction2() {
+	  var popup2 = document.getElementById("myPopup2");
+	  popup2.classList.toggle("show");
+	}
+	</script>
+</td>
+
+	<td><b>Matematik A</b>
+	<p>Dagens Procedure</p>
+	<div class="popup3" onclick="myFunction3()">Klik her!
+		<span class="popuptext3" id="myPopup3">Lektiebesked</span>
+	</div>
+
+	<script>
+	// When the user clicks on div, open the popup
+	function myFunction3() {
+	  var popup3 = document.getElementById("myPopup3");
+	  popup3.classList.toggle("show");
+	}
+	</script>
+</td>
+
+	<td><b>Programmering B</b>
+	<p>Dagens Procedure</p>
+	<div class="popup4" onclick="myFunction4()">Klik her!
+		<span class="popuptext4" id="myPopup4">Lektiebesked</span>
+	</div>
+
+	<script>
+	// When the user clicks on div, open the popup
+	function myFunction4() {
+	  var popup4 = document.getElementById("myPopup4");
+	  popup4.classList.toggle("show");
+	}
+	</script>
+</td>
+
+	<td><b>Engelsk B -> A</b>
+	<p>Dagens Procedure</p>
+	<div class="popup5" onclick="myFunction5()">Klik her!
+		<span class="popuptext5" id="myPopup5">Lektiebesked</span>
+	</div>
+
+	<script>
+	// When the user clicks on div, open the popup
+	function myFunction5() {
+	  var popup5 = document.getElementById("myPopup5");
+	  popup5.classList.toggle("show");
+	}
+	</script>
+</td>
+
+  </tr>
+  <tr style="background-color:#D7FBAD">
+    <td>9:00-9:45</td>
+    <td><b>Matematik A</b>
+	<p>Dagens Procedure</p>
+	<div class="popup6" onclick="myFunction6()">Klik her!
+		<span class="popuptext6" id="myPopup6">Lektiebesked</span>
+	</div>
+
+	<script>
+	// When the user clicks on div, open the popup
+	function myFunction6() {
+	  var popup6 = document.getElementById("myPopup6");
+	  popup6.classList.toggle("show");
+	}
+	</script>
+</td>
+
+    <td><b>Engelsk B -> A</b>
+	<p>Dagens Procedure</p>
+	<div class="popup7" onclick="myFunction7()">Klik her!
+		<span class="popuptext7" id="myPopup7">Lektiebesked</span>
+	</div>
+
+	<script>
+	// When the user clicks on div, open the popup
+	function myFunction7() {
+	  var popup7 = document.getElementById("myPopup7");
+	  popup7.classList.toggle("show");
+	}
+	</script>
+</td>
+
+	<td><b>Matematik A</b>
+	<p>Dagens Procedure</p>
+	<div class="popup8" onclick="myFunction8()">Klik her!
+		<span class="popuptext8" id="myPopup8">Lektiebesked</span>
+	</div>
+
+	<script>
+	// When the user clicks on div, open the popup
+	function myFunction8() {
+	  var popup8 = document.getElementById("myPopup8");
+	  popup8.classList.toggle("show");
+	}
+	</script>
+</td>
+
+	<td><b>Programmering B</b>
+	<p>Dagens Procedure</p>
+	<div class="popup9" onclick="myFunction9()">Klik her!
+		<span class="popuptext9" id="myPopup9">Lektiebesked</span>
+	</div>
+
+	<script>
+	// When the user clicks on div, open the popup
+	function myFunction9() {
+	  var popup9 = document.getElementById("myPopup9");
+	  popup9.classList.toggle("show");
+	}
+	</script>
+</td>
+
+	<td><b>Engelsk B -> A</b>
+	<p>Dagens Procedure</p>
+	<div class="popup10" onclick="myFunction10()">Klik her!
+		<span class="popuptext10" id="myPopup10">Lektiebesked</span>
+	</div>
+
+	<script>
+	// When the user clicks on div, open the popup
+	function myFunction10() {
+	  var popup10 = document.getElementById("myPopup10");
+	  popup10.classList.toggle("show");
+	}
+	</script>
+</td>
+
+  </tr>
+  <tr style="background-color:#D7FBAD">
+    <td>9:45-10:00</td>
+    <td><b>Pause</b></td>
+    <td><b>Pause</b></td>
+	<td><b>Pause</b></td>
+	<td><b>Pause</b></td>
+	<td><b>Pause</b></td>
+  </tr>
+  <tr style="background-color:#D7FBAD">
+	<td>10:00-10:45</td>
+	<td><b>Dansk A</b>
+	<p>Dagens Procedure</p>
+	<div class="popup11" onclick="myFunction11()">Klik her!
+		<span class="popuptext11" id="myPopup11">Lektiebesked</span>
+	</div>
+
+	<script>
+	// When the user clicks on div, open the popup
+	function myFunction11() {
+	  var popup11 = document.getElementById("myPopup11");
+	  popup11.classList.toggle("show");
+	}
+	</script>
+</td>
+
+	<td><b>Engelsk B -> A</b>
+	<p>Dagens Procedure</p>
+	<div class="popup12" onclick="myFunction12()">Klik her!
+		<span class="popuptext12" id="myPopup12">Lektiebesked</span>
+	</div>
+
+	<script>
+	// When the user clicks on div, open the popup
+	function myFunction12() {
+	  var popup12 = document.getElementById("myPopup12");
+	  popup12.classList.toggle("show");
+	}
+	</script>
+</td>
+
+	<td><b>Dansk A</b>
+	<p>Dagens Procedure</p>
+	<div class="popup13" onclick="myFunction13()">Klik her!
+		<span class="popuptext13" id="myPopup13">Lektiebesked</span>
+	</div>
+
+	<script>
+	// When the user clicks on div, open the popup
+	function myFunction13() {
+	  var popup13 = document.getElementById("myPopup13");
+	  popup13.classList.toggle("show");
+	}
+	</script>
+</td>
+
+	<td><b>Programmering B</b>
+	<p>Dagens Procedure</p>
+	<div class="popup14" onclick="myFunction14()">Klik her!
+		<span class="popuptext14" id="myPopup14">Lektiebesked</span>
+	</div>
+
+	<script>
+	// When the user clicks on div, open the popup
+	function myFunction14() {
+	  var popup14 = document.getElementById("myPopup14");
+	  popup14.classList.toggle("show");
+	}
+	</script>
+</td>
+
+	<td><b>Teknikfag - El A</b>
+	<p>Dagens Procedure</p>
+	<div class="popup15" onclick="myFunction15()">Klik her!
+		<span class="popuptext15" id="myPopup15">Lektiebesked</span>
+	</div>
+
+	<script>
+	// When the user clicks on div, open the popup
+	function myFunction15() {
+	  var popup15 = document.getElementById("myPopup15");
+	  popup15.classList.toggle("show");
+	}
+	</script>
+</td>
+
+  </tr>
+  <tr style="background-color:#D7FBAD">
+	<td>10:45-11:30</td>
+	<td><b>Dansk A</b>
+	<p>Dagens Procedure</p>
+	<div class="popup16" onclick="myFunction16()">Klik her!
+		<span class="popuptext16" id="myPopup16">Lektiebesked</span>
+	</div>
+
+	<script>
+	// When the user clicks on div, open the popup
+	function myFunction16() {
+	  var popup16 = document.getElementById("myPopup16");
+	  popup16.classList.toggle("show");
+	}
+	</script>
+</td>
+
+	<td><b>Programmering B</b>
+	<p>Dagens Procedure</p>
+	<div class="popup17" onclick="myFunction17()">Klik her!
+		<span class="popuptext17" id="myPopup17">Lektiebesked</span>
+	</div>
+
+	<script>
+	// When the user clicks on div, open the popup
+	function myFunction17() {
+	  var popup17 = document.getElementById("myPopup17");
+	  popup17.classList.toggle("show");
+	}
+	</script>
+</td>
+
+	<td><b>Dansk A</b>
+	<p>Dagens Procedure</p>
+	<div class="popup18" onclick="myFunction18()">Klik her!
+		<span class="popuptext18" id="myPopup18">Lektiebesked</span>
+	</div>
+
+	<script>
+	// When the user clicks on div, open the popup
+	function myFunction18() {
+	  var popup18 = document.getElementById("myPopup18");
+	  popup18.classList.toggle("show");
+	}
+	</script>
+</td>
+
+	<td><b>Programmering B</b>
+	<p>Dagens Procedure</p>
+	<div class="popup19" onclick="myFunction19()">Klik her!
+		<span class="popuptext19" id="myPopup19">Lektiebesked</span>
+	</div>
+
+	<script>
+	// When the user clicks on div, open the popup
+	function myFunction19() {
+	  var popup19 = document.getElementById("myPopup19");
+	  popup19.classList.toggle("show");
+	}
+	</script>
+</td>
+
+	<td><b>Teknikfag - El A</b>
+	<p>Dagens Procedure</p>
+	<div class="popup20" onclick="myFunction20()">Klik her!
+		<span class="popuptext20" id="myPopup20">Lektiebesked</span>
+	</div>
+
+	<script>
+	// When the user clicks on div, open the popup
+	function myFunction20() {
+	  var popup20 = document.getElementById("myPopup20");
+	  popup20.classList.toggle("show");
+	}
+	</script>
+</td>
+
+  </tr>
+  <tr style="background-color:#D7FBAD">
+	<td>11:30-12:00</td>
+	<td><b>Pause</b></td>
+    <td><b>Pause</b></td>
+	<td><b>Pause</b></td>
+	<td><b>Pause</b></td>
+	<td><b>Pause</b></td>
+  </tr>
+  <tr style="background-color:#D7FBAD">
+	<td>12:00-12:45</td>
+	<td><b>Erhversøkonomi C</b>
+	<p>Dagens Procedure</p>
+	<div class="popup21" onclick="myFunction21()">Klik her!
+		<span class="popuptext21" id="myPopup21">Lektiebesked</span>
+	</div>
+
+	<script>
+	// When the user clicks on div, open the popup
+	function myFunction21() {
+	  var popup21 = document.getElementById("myPopup21");
+	  popup21.classList.toggle("show");
+	}
+	</script>
+</td>
+
+	<td><b>Idehistorie B</b>
+	<p>Dagens Procedure</p>
+	<div class="popup22" onclick="myFunction22()">Klik her!
+		<span class="popuptext22" id="myPopup22">Lektiebesked</span>
+	</div>
+
+	<script>
+	// When the user clicks on div, open the popup
+	function myFunction22() {
+	  var popup22 = document.getElementById("myPopup22");
+	  popup22.classList.toggle("show");
+	}
+	</script>
+</td>
+
+	<td><b>Teknikfag - El A</b>
+	<p>Dagens Procedure</p>
+	<div class="popup23" onclick="myFunction23()">Klik her!
+		<span class="popuptext23" id="myPopup23">Lektiebesked</span>
+	</div>
+
+	<script>
+	// When the user clicks on div, open the popup
+	function myFunction23() {
+	  var popup23 = document.getElementById("myPopup23");
+	  popup23.classList.toggle("show");
+	}
+	</script>
+</td>
+
+	<td><b>Programmering B</b>
+	<p>Dagens Procedure</p>
+	<div class="popup24" onclick="myFunction24()">Klik her!
+		<span class="popuptext24" id="myPopup24">Lektiebesked</span>
+	</div>
+
+	<script>
+	// When the user clicks on div, open the popup
+	function myFunction24() {
+	  var popup24 = document.getElementById("myPopup24");
+	  popup24.classList.toggle("show");
+	}
+	</script>
+</td>
+
+	<td><b>Teknikfag - El A</b>
+	<p>Dagens Procedure</p>
+	<div class="popup25" onclick="myFunction25()">Klik her!
+		<span class="popuptext25" id="myPopup25">Lektiebesked</span>
+	</div>
+
+	<script>
+	// When the user clicks on div, open the popup
+	function myFunction25() {
+	  var popup25 = document.getElementById("myPopup25");
+	  popup25.classList.toggle("show");
+	}
+	</script>
+</td>
+
+  </tr>
+  <tr style="background-color:#D7FBAD">
+	<td>12:45-13:30</td>
+	<td><b>Erhversøkonomi C</b>
+	<p>Dagens Procedure</p>
+	<div class="popup26" onclick="myFunction26()">Klik her!
+		<span class="popuptext26" id="myPopup26">Lektiebesked</span>
+	</div>
+
+	<script>
+	// When the user clicks on div, open the popup
+	function myFunction26() {
+	  var popup26 = document.getElementById("myPopup26");
+	  popup26.classList.toggle("show");
+	}
+	</script>
+</td>
+
+	<td><b>Idehistorie B</b>
+	<p>Dagens Procedure</p>
+	<div class="popup27" onclick="myFunction27()">Klik her!
+		<span class="popuptext27" id="myPopup27">Lektiebesked</span>
+	</div>
+
+	<script>
+	// When the user clicks on div, open the popup
+	function myFunction27() {
+	  var popup27 = document.getElementById("myPopup27");
+	  popup27.classList.toggle("show");
+	}
+	</script>
+</td>
+
+	<td><b>Teknikfag - El A</b>
+	<p>Dagens Procedure</p>
+	<div class="popup28" onclick="myFunction28()">Klik her!
+		<span class="popuptext28" id="myPopup28">Lektiebesked</span>
+	</div>
+
+	<script>
+	// When the user clicks on div, open the popup
+	function myFunction28() {
+	  var popup28 = document.getElementById("myPopup28");
+	  popup28.classList.toggle("show");
+	}
+	</script>
+</td>
+
+	<td><b>Matematik A</b>
+	<p>Dagens Procedure</p>
+	<div class="popup29" onclick="myFunction29()">Klik her!
+		<span class="popuptext29" id="myPopup29">Lektiebesked</span>
+	</div>
+
+	<script>
+	// When the user clicks on div, open the popup
+	function myFunction29() {
+	  var popup29 = document.getElementById("myPopup29");
+	  popup29.classList.toggle("show");
+	}
+	</script>
+</td>
+
+	<td><b>Teknikfag - El A</b>
+	<p>Dagens Procedure</p>
+	<div class="popup30" onclick="myFunction30()">Klik her!
+		<span class="popuptext30" id="myPopup30">Lektiebesked</span>
+	</div>
+
+	<script>
+	// When the user clicks on div, open the popup
+	function myFunction30() {
+	  var popup30 = document.getElementById("myPopup30");
+	  popup30.classList.toggle("show");
+	}
+	</script>
+</td>
+
+  </tr>
+  <tr style="background-color:#D7FBAD">
+	<td>13:30-13:35</td>
+	<td><b>Pause</b></td>
+    <td><b>Pause</b></td>
+	<td><b>Pause</b></td>
+	<td><b>Pause</b></td>
+	<td><b>Pause</b></td>
+  </tr>
+  <tr style="background-color:#D7FBAD">
+	<td>13:35-14:20</td>
+	<td><b>Erhversøkonomi C</b>
+	<p>Dagens Procedure</p>
+	<div class="popup31" onclick="myFunction31()">Klik her!
+		<span class="popuptext31" id="myPopup31">Lektiebesked</span>
+	</div>
+
+	<script>
+	// When the user clicks on div, open the popup
+	function myFunction31() {
+	  var popup31 = document.getElementById("myPopup31");
+	  popup31.classList.toggle("show");
+	}
+	</script>
+</td>
+
+	<td></td>
+	<td><b>Teknikfag - El A</b>
+	<p>Dagens Procedure</p>
+	<div class="popup32" onclick="myFunction32()">Klik her!
+		<span class="popuptext32" id="myPopup32">Lektiebesked</span>
+	</div>
+
+	<script>
+	// When the user clicks on div, open the popup
+	function myFunction32() {
+	  var popup32 = document.getElementById("myPopup32");
+	  popup32.classList.toggle("show");
+	}
+	</script>
+</td>
+
+	<td><b>Matematik A</b>
+	<p>Dagens Procedure</p>
+	<div class="popup33" onclick="myFunction33()">Klik her!
+		<span class="popuptext33" id="myPopup33">Lektiebesked</span>
+	</div>
+
+	<script>
+	// When the user clicks on div, open the popup
+	function myFunction33() {
+	  var popup33 = document.getElementById("myPopup33");
+	  popup33.classList.toggle("show");
+	}
+	</script>
+</td>
+
+	<td><b>Teknikfag - El A</b>
+	<p>Dagens Procedure</p>
+	<div class="popup34" onclick="myFunction34()">Klik her!
+		<span class="popuptext34" id="myPopup34">Lektiebesked</span>
+	</div>
+
+	<script>
+	// When the user clicks on div, open the popup
+	function myFunction34() {
+	  var popup34 = document.getElementById("myPopup34");
+	  popup34.classList.toggle("show");
+	}
+	</script>
+</td>
+
+  </tr>
+  <tr style="background-color:#D7FBAD">
+	<td>14:20-15:05</td>
+	<td></td>
+	<td></td>
+	<td><b>Teknikfag - El A</b>
+	<p>Dagens Procedure</p>
+	<div class="popup35" onclick="myFunction35()">Klik her!
+		<span class="popuptext35" id="myPopup35">Lektiebesked</span>
+	</div>
+
+	<script>
+	// When the user clicks on div, open the popup
+	function myFunction35() {
+	  var popup35 = document.getElementById("myPopup35");
+	  popup35.classList.toggle("show");
+	}
+	</script>
+</td>
+
+	<td><b>Programmering B</b>
+	<p>Dagens Procedure</p>
+	<div class="popup36" onclick="myFunction36()">Klik her!
+		<span class="popuptext36" id="myPopup36">Lektiebesked</span>
+	</div>
+
+	<script>
+	// When the user clicks on div, open the popup
+	function myFunction36() {
+	  var popup36 = document.getElementById("myPopup36");
+	  popup36.classList.toggle("show");
+	}
+	</script>
+</td>
+
+	<td><b>Programmering B</b>
+	<p>Dagens Procedure</p>
+	<div class="popup37" onclick="myFunction37()">Klik her!
+		<span class="popuptext37" id="myPopup37">Lektiebesked</span>
+	</div>
+
+	<script>
+	// When the user clicks on div, open the popup
+	function myFunction37() {
+	  var popup37 = document.getElementById("myPopup37");
+	  popup37.classList.toggle("show");
+	}
+	</script>
+</td>
+
+  </tr>
+  <tr style="background-color:#D7FBAD">
+	<td>15:05-15:50</td>
+	<td></td>
+	<td></td>
+	<td><b>Teknikfag - El A</b>
+	<p>Dagens Procedure</p>
+	<div class="popup38" onclick="myFunction38()">Klik her!
+		<span class="popuptext38" id="myPopup38">Lektiebesked</span>
+	</div>
+
+	<script>
+	// When the user clicks on div, open the popup
+	function myFunction38() {
+	  var popup38 = document.getElementById("myPopup38");
+	  popup38.classList.toggle("show");
+	}
+	</script>
+</td>
+
+	<td><b>Programmering B</b>
+	<p>Dagens Procedure</p>
+	<div class="popup39" onclick="myFunction39()">Klik her!
+		<span class="popuptext39" id="myPopup39">Lektiebesked</span>
+	</div>
+
+	<script>
+	// When the user clicks on div, open the popup
+	function myFunction39() {
+	  var popup39 = document.getElementById("myPopup39");
+	  popup39.classList.toggle("show");
+	}
+	</script>
+</td>
+	<td><b>Programmering B</b>
+	<p>Dagens Procedure</p>
+	<div class="popup40" onclick="myFunction40()">Klik her!
+		<span class="popuptext40" id="myPopup40">Lektiebesked</span>
+	</div>
+
+	<script>
+	// When the user clicks on div, open the popup
+	function myFunction40() {
+	  var popup40 = document.getElementById("myPopup40");
+	  popup40.classList.toggle("show");
+	}
+	</script>
+</td>
+  </tr>
+</table>
+
 </body>
 </html>
