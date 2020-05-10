@@ -1,0 +1,30 @@
+Termin: 2003
+Fag: Dansk A, skriftlig
+Karakter: 10
+Termin: 2003
+Fag: Dansk A, mundtlig
+Karakter: 12
+Termin: 2003
+Fag: Matematik A, skriftlig
+Karakter: 7
+Termin: 2003
+Fag: Matematik A, mundtlig
+Karakter: 4
+Termin: 2003
+Fag: Teknikfag udvikling og produktion, el A
+Karakter: 7
+Termin: 2003
+Fag: Engelsk B, skriftlig
+Karakter: 10
+Termin: 2003
+Fag: Engelsk B, mundtlig
+Karakter: 12
+Termin: 2003
+Fag: Programmering B
+Karakter: 7
+Termin: 2003
+Fag: Idéhistorie B
+Karakter: 4
+Termin: 2003
+Fag: Psykologi C
+Karakter: 7
