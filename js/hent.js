@@ -30,7 +30,6 @@ function scrape() {
             await driver.findElement(By.id("submitButton")).sendKeys(Key.RETURN);
 
             await driver.wait(until.titleIs('Skemaer'));
-            await driver.wait(until.elementLocated(By.className('v-window-closebox'))).click();
 
             let menuKnapper = await driver.findElements(By.className('v-menubar-menuitem-caption'));
 
@@ -91,7 +90,7 @@ function scrape() {
             let everingstabel = await driver.findElements(By.className('v-table-cell-wrapper'));
 
             // Clear the file's contents.
-            fs.writeFile('everinger.txt', '', 'utf8', (err) => {
+            fs.writeFile('afleveringer.txt', '', 'utf8', (err) => {
                 if (err) throw err;
             });
 
@@ -105,31 +104,14 @@ function scrape() {
                     console.log(tekst)
 
                     // Append the new text.
-                    fs.appendFile('everinger.txt', prefixes[i % prefixes.length] + tekst + '\n', 'utf8', (err) => {
+                    fs.appendFile('afleveringer.txt', prefixes[i % prefixes.length] + tekst + '\n', 'utf8', (err) => {
                         if (err) throw err;
-                        console.log('Text appended to everinger.txt');
+                        console.log('Text appended to afleveringer.txt');
                     });
 
                     i++;
                 });
             });
-
-            let karakterKnap = menuKnapper[1];
-
-            console.log("sleep");
-            await driver.sleep(1000);
-            console.log("wake");
-
-            await karakterKnap.click();
-            let menuPopup = await driver.findElements(By.className('popupContent'));
-            let kursistKnap = menuPopup[3];
-            console.log("sleep");
-            await driver.sleep(1000);
-            console.log("wake");
-            await kursistKnap.click();
-
-
-
 
             console.log("DONE");
 
