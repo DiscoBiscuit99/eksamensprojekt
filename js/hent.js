@@ -28,7 +28,7 @@ function scrape() {
             await driver.findElement(By.name('UserName')).sendKeys(username);
             await driver.findElement(By.name('Password')).sendKeys(password);
             await driver.findElement(By.id("submitButton")).sendKeys(Key.RETURN);
-
+            await driver.wait(until.elementLocated(By.className('v-window-closebox'))).click();
             await driver.wait(until.titleIs('Skemaer'));
 
             let menuKnapper = await driver.findElements(By.className('v-menubar-menuitem-caption'));
