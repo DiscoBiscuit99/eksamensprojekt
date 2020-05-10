@@ -100,9 +100,12 @@ function scrape() {
             prefixes = ["Modul: ", "Lærer: ", "Status: ", "Aflever: ", 
                         "Frist: ", "Timer: ", "Rettet: ", "Titel: "];
 
+            let done;
             promise.filter(everingstabel, (element) => {
                 element.getText().then((tekst) => {
                     console.log(tekst)
+
+                    done = false;
 
                     // Append the new text.
                     fs.appendFile('afleveringer.txt', prefixes[i % prefixes.length] + tekst + '\n', 'utf8', (err) => {
@@ -111,12 +114,9 @@ function scrape() {
                     });
                 
                     i++;
+                    done = true;
                 });
             });
-
-            menuKnapper[1].click();
-
-
             
             console.log("DONE");
 
