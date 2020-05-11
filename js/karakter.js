@@ -6,8 +6,7 @@ const readline = require('readline');
 // Instantiere interface, der læser filen "karakterer" og outputter som standard stream (STDOUT).
 const readInterface = readline.createInterface({
     input: fs.createReadStream('karakterer.txt'),
-    output: process.stdout,
-    console: false
+    output: process.stdout
 });
 
 // Instantiere række til tabellen der blev lavet i "karakter.html"
