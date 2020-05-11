@@ -121,10 +121,8 @@ function scrape() {
             });
             
             console.log("DONE");
-
-            //driver.quit();
         } finally{
-            //driver.quit();
+            //await driver.quit();
 
             document.getElementById('getDataText').innerHTML = 'Data hentet.';
         }
