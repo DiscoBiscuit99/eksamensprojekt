@@ -1,4 +1,6 @@
 const {Builder, By, Key, until, promise} = require('selenium-webdriver');
+const firefox = require('selenium-webdriver/firefox');
+
 const fs = require('fs');
 
 let userdataJSON = fs.readFileSync('./user-credentials.json');
@@ -14,12 +16,17 @@ function scrape() {
     let fetchingDataText = document.createTextNode("Henter data, bliv venligst på siden...");
     document.getElementById('getDataText').appendChild(fetchingDataText);
 
+    console.log("Starting Selenium Webdriver...");
+
     (async function scrapeLudus() {
+        let options = new firefox.Options();
+        options.addArguments("-headless");
+
         let driver = await new Builder().withCapabilities({
             'browserName': 'firefox',
             acceptSslCerts: true,
             acceptInsecureCerts: true
-        }).build()
+        }).setFirefoxOptions(options).build()
 
         try {
             // Navigate to Rybners/Ludus login.
