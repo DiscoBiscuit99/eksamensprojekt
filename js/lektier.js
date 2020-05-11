@@ -9,6 +9,9 @@ const readInterface = readline.createInterface({
 
 // TODO: this can be iterated over with a loop. *
 
+let categories = ["Dato", "Ugedag", "Fag", "Lektier", 
+                  "Øvrigt materiale", "Links", "Dokumenter"];
+
 let row = document.createElement('tr');
 
 let column1 = document.createElement('th');
