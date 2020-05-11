@@ -16,8 +16,8 @@ function scrape() {
 
     (async function scrapeLudus() {
         let driver = await new Builder().withCapabilities({
-            'browserName': 'firefox', 
-            acceptSslCerts: true, 
+            'browserName': 'firefox',
+            acceptSslCerts: true,
             acceptInsecureCerts: true
         }).build()
 
@@ -28,9 +28,8 @@ function scrape() {
             await driver.findElement(By.name('UserName')).sendKeys(username);
             await driver.findElement(By.name('Password')).sendKeys(password);
             await driver.findElement(By.id("submitButton")).sendKeys(Key.RETURN);
-
-            await driver.wait(until.titleIs('Skemaer'));
             await driver.wait(until.elementLocated(By.className('v-window-closebox'))).click();
+            await driver.wait(until.titleIs('Skemaer'));
 
             let menuKnapper = await driver.findElements(By.className('v-menubar-menuitem-caption'));
 
@@ -60,7 +59,7 @@ function scrape() {
 
             // Initialize iterator and prefix table.
             let i = 0;
-            let prefixes = ["Dato: ", "Ugedag: ", "Fag: ", "Lektier: ", 
+            let prefixes = ["Dato: ", "Ugedag: ", "Fag: ", "Lektier: ",
                             "Øvrigt materiale: ", "Links: ", "Dokumenter: "];
 
             promise.filter(lektietabel, (element) => {
@@ -76,7 +75,7 @@ function scrape() {
                     i++;
                 });
             });
-        
+
             /// Scrape under everingstabbet. ///
 
             let lektieMenuKnapper = await driver.findElements(By.className('v-caption'));
@@ -97,7 +96,7 @@ function scrape() {
 
             // Reset iterator.
             i = 0;
-            prefixes = ["Modul: ", "Lærer: ", "Status: ", "Aflever: ", 
+            prefixes = ["Modul: ", "Lærer: ", "Status: ", "Aflever: ",
                         "Frist: ", "Timer: ", "Rettet: ", "Titel: "];
 
             let done;
@@ -112,7 +111,7 @@ function scrape() {
                         if (err) throw err;
                         console.log('Text appended to afleveringer.txt');
                     });
-                
+
                     i++;
                     done = true;
                 });

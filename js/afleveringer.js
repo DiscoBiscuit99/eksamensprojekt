@@ -7,8 +7,6 @@ const readInterface = readline.createInterface({
     console: false
 });
 
-// TODO: this can be iterated over with a loop. *
-
 let row = document.createElement('tr');
 
 let column1 = document.createElement('th');
@@ -61,7 +59,7 @@ readInterface.on('line', (line) => {
 
     let column;
 
-    if (line.includes("Modul")) {  
+    if (line.includes("Modul")) {
         row = document.createElement('tr');
 
         column = document.createElement('td');
@@ -71,22 +69,13 @@ readInterface.on('line', (line) => {
 
         document.getElementById('afleveringstabel').appendChild(row);
     } else if (line.includes("Lærer") ||
-            line.includes("Status") || line.includes("Aflever") || 
-            line.includes("Frist") || line.includes("Timer") || 
+            line.includes("Status") || line.includes("Aflever") ||
+            line.includes("Frist") || line.includes("Timer") ||
             line.includes("Rettet") || line.includes("Titel")) {
         column = document.createElement('td');
 
         column.appendChild(content);
         row.appendChild(column);
-
-        //document.getElementById('lektietabel').appendChild(row);
-    } else {
-    //    column.appendChild(content);
-    //    row.appendChild(column);
-
-    //    document.getElementById('lektietable').appendChild(row);
     }
-
     i++;
 });
-
