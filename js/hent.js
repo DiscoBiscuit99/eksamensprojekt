@@ -24,7 +24,7 @@ function scrape() {
 
     console.log("Starting Selenium Webdriver...");
 
-    // Start the async funktion.
+    // Start the async function.
     (async function scrapeLudus() {
         // Create the options for firefox and add the headless argument.
         let options = new firefox.Options();
