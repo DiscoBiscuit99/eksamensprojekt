@@ -4,7 +4,7 @@
   "description": "A shot at making a better ludus/lms.",
   "main": "main.js",
   "dependencies": {
-    "electron": "^8.2.2"
+    "electron": "^8.5.1"
   },
   "devDependencies": {
     "selenium-webdriver": "^4.0.0-alpha.7"
